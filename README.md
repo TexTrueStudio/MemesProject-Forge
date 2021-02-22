@@ -1,6 +1,6 @@
 # MemesProject-Forge
 
-ZH-CN/EN
+ZH-CN/[EN](https://github.com/block2333/MemesProject-Forge/blob/master/README-EN.md)
 
 #### 介绍
 这是一个Minecraft Mod开源项目，使用MCeator制作

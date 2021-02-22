@@ -7,7 +7,6 @@ ZH-CN/EN
 
 #### 许可协议
 详情请见仓库LICENSE_zh-CN
-本mod内音乐文件（[Meme-Project-music](https://gitee.com/tex-memes-project/meme-project-music)）遵循CC-BY-4.0协议
 本mod主体遵循MIT协议
 #### 安装教程
 
@@ -30,5 +29,5 @@ ZH-CN/EN
 
 #### 使用说明
 
-1.  使用java864位
-2.  运行内存大于2048
+1.  使用JAVA8 64位
+2.  使用1.15.2版本

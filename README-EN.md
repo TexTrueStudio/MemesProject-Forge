@@ -1,11 +1,8 @@
 # Memes Project-Forge
 
-#### Introduction
-This is a Minecraft Mod open source project, made with MCeator (trying to escape, using pure code)
 
 #### agreement
-For details, please see the warehouse LICENSE_zh-CN
-The music files in this mod ([Meme-Project-music](https://gitee.com/block233/meme-project-music)) follow the CC-BY-4.0 protocol
+For details, please see the warehouse LICENSE
 The main body of this mod follows the MIT protocol
 #### Installation tutorial
 
@@ -28,5 +25,5 @@ The main body of this mod follows the MIT protocol
 
 #### Instructions for use
 
-1. Use java864 bit
-
+1. Use java8 64 bit
+2. Use Minecraft 1.15.2 Lateset Forge

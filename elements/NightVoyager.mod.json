@@ -1,0 +1,19 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "nightvoyager",
+    "name": "Night Voyager",
+    "description": "Three-body universe & Bucai",
+    "creativeTab": {
+      "value": "CUSTOM:MemesProjectDisc"
+    },
+    "music": {
+      "value": "CUSTOM:night-voyager"
+    },
+    "specialInfo": [
+      "My Three-Body Legend of Zhang Beihai ED"
+    ],
+    "hasGlow": true
+  }
+}

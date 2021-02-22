@@ -1,0 +1,272 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "DullBlade",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dull_blade"
+    },
+    {
+      "name": "MPWs",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mp_ws"
+    },
+    {
+      "name": "MemesProjectWeapons",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "memes_project_weapons"
+    },
+    {
+      "name": "NightVoyager",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_voyager"
+    },
+    {
+      "name": "MPDs",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mp_ds"
+    },
+    {
+      "name": "MemesProjectDisc",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "memes_project_disc"
+    },
+    {
+      "name": "StoneGrainOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_grain_ore"
+    },
+    {
+      "name": "StoneGrainIngot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_grain_ingot"
+    },
+    {
+      "name": "StoneGrainNugget",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_grain_nugget"
+    },
+    {
+      "name": "SGOreNugget",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sg_ore_nugget"
+    },
+    {
+      "name": "StoneGrainPlate",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_grain_plate"
+    },
+    {
+      "name": "StoneGrainBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_grain_block"
+    },
+    {
+      "name": "SGNuggetIngot",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sg_nugget_ingot"
+    },
+    {
+      "name": "SGIngotBlock",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sg_ingot_block"
+    },
+    {
+      "name": "DullBladeUpHaft",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dull_blade_up_haft"
+    },
+    {
+      "name": "DullBladeDownHaft",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dull_blade_down_haft"
+    },
+    {
+      "name": "MPMs",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mp_ms"
+    },
+    {
+      "name": "MemesProjectMaterials",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "memes_project_materials"
+    },
+    {
+      "name": "SGBlockIngot",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sg_block_ingot"
+    },
+    {
+      "name": "SGIngotNugget",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sg_ingot_nugget"
+    },
+    {
+      "name": "DBUH",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dbuh"
+    },
+    {
+      "name": "DBDH",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dbdh"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "night-voyager",
+      "files": [
+        "nightvoyager"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.memesproject.mp_ws": "MemesProject-Weapons-ICON",
+      "item.memesproject.stone_grain_plate": "Stone Grain Plate",
+      "itemGroup.tabmemes_project_materials": "Memes Project-Materials",
+      "itemGroup.tabmemes_project_weapons": "Memes Project-Weapons",
+      "subtitles.night-voyager": "NightVoyager",
+      "item.memesproject.night_voyager": "Night Voyager",
+      "itemGroup.tabmemes_project_disc": "Memes Project-Disc",
+      "item.memesproject.mp_ds": "MemesProject-Disc-ICON",
+      "item.memesproject.dull_blade": "Dull Blade",
+      "item.memesproject.stone_grain_nugget": "Stone Grain Nugget",
+      "block.memesproject.stone_grain_ore": "Stone Grain Ore",
+      "item.memesproject.stone_grain_ingot": "Stone Grain Ingot",
+      "block.memesproject.stone_grain_block": "Stone Grain Block",
+      "item.memesproject.night_voyager.desc": "Three-body universe \u0026 Bucai",
+      "item.memesproject.dull_blade_down_haft": "Dull Blade Down Haft",
+      "item.memesproject.dull_blade_up_haft": "Dull Blade Up Haft",
+      "item.memesproject.mp_ms": "MemesProject-Materials-ICON"
+    },
+    "zh_cn": {
+      "item.memesproject.mp_ws": "MemesProject-武器-创造选项卡图标",
+      "item.memesproject.stone_grain_plate": "石粒板",
+      "itemGroup.tabmemes_project_materials": "Memes Project-材料",
+      "itemGroup.tabmemes_project_weapons": "Memes Project-武器",
+      "subtitles.night-voyager": "夜航星",
+      "item.memesproject.night_voyager": "夜航星",
+      "itemGroup.tabmemes_project_disc": "MemesProject-唱片",
+      "item.memesproject.mp_ds": "MemesProject-唱片-创造选项卡图标",
+      "item.memesproject.dull_blade": "无锋剑",
+      "item.memesproject.stone_grain_nugget": "石粒",
+      "block.memesproject.stone_grain_ore": "石粒矿",
+      "item.memesproject.stone_grain_ingot": "石粒锭",
+      "block.memesproject.stone_grain_block": "石粒块",
+      "item.memesproject.night_voyager.desc": "三体宇宙\u0026不才",
+      "item.memesproject.dull_blade_down_haft": "无锋剑下半部分",
+      "item.memesproject.dull_blade_up_haft": "无锋剑上半部分",
+      "item.memesproject.mp_ms": "MemesProjrct-材料-创造选项卡图标"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "memesproject",
+    "modName": "MemesProject",
+    "version": "1.0.0",
+    "author": "TexBlock2333",
+    "websiteURL": "https://github.com/block2333/MemesProject-Forge",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator",
+    "modElementsPackage": "net.mcreator.memesproject",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

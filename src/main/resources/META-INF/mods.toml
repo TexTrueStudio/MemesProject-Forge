@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="memesproject"
+version="1.0.0"
+displayName="MemesProject"
+credits="Created using mod maker MCreator"
+displayURL="https://github.com/block2333/MemesProject-Forge"
+authors="TexBlock2333"
+
+[[dependencies.memesproject]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

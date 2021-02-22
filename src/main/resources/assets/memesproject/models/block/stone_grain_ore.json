@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "memesproject:blocks/stone_ore",
+    "particle": "memesproject:blocks/stone_ore"
+  }
+}

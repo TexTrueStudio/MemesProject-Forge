@@ -1,0 +1,16 @@
+{
+  "group": "memesproject",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "memesproject:stone_grain_block"
+    }
+  },
+  "result": {
+    "item": "memesproject:stone_grain_ingot",
+    "count": 9
+  }
+}

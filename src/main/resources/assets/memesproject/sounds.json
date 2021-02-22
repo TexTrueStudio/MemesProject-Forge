@@ -1,0 +1,11 @@
+{
+  "night-voyager": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "memesproject:nightvoyager",
+        "stream": true
+      }
+    ]
+  }
+}

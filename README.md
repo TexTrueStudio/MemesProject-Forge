@@ -2,9 +2,6 @@
 
 ZH-CN/[EN](https://github.com/block2333/MemesProject-Forge/blob/master/README-EN.md)
 
-#### 介绍
-这是一个Minecraft Mod开源项目，使用MCeator制作
-
 #### 许可协议
 详情请见仓库LICENSE_zh-CN
 本mod主体遵循MIT协议

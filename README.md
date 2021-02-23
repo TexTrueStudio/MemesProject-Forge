@@ -2,9 +2,7 @@
 
 ZH-CN/[EN](https://github.com/block2333/MemesProject-Forge/blob/master/README-EN.md)
 
-#### 许可协议
 
-本mod主体遵循MIT协议
 
 #### 安装教程
 

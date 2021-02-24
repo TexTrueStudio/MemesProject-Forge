@@ -49,6 +49,10 @@ public class MemesprojectModElements {
 	public MemesprojectModElements() {
 		sounds.put(new ResourceLocation("memesproject", "night-voyager"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("memesproject", "night-voyager")));
+		sounds.put(new ResourceLocation("memesproject", "goyang_ubur_ubur_remixed"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("memesproject", "goyang_ubur_ubur_remixed")));
+		sounds.put(new ResourceLocation("memesproject", "never_gonna_give_you_up"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("memesproject", "never_gonna_give_you_up")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("memesproject").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

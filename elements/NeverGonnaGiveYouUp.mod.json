@@ -1,0 +1,19 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "never_gonna_give_you_up",
+    "name": "Never Gonna Give You Up",
+    "description": "Rick Roll -Never Gonna Give You Up",
+    "creativeTab": {
+      "value": "CUSTOM:MemesProjectDisc"
+    },
+    "music": {
+      "value": "CUSTOM:never_gonna_give_you_up"
+    },
+    "specialInfo": [
+      "Rickroll"
+    ],
+    "hasGlow": true
+  }
+}

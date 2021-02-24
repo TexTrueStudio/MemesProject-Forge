@@ -3,7 +3,7 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="memesproject"
-version="1.0.0"
+version="0.1.1"
 displayName="MemesProject"
 credits="Created using mod maker MCreator"
 displayURL="https://github.com/block2333/MemesProject-Forge"

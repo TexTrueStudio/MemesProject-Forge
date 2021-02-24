@@ -1,0 +1,19 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "goyang_ubur_ubur_remixed",
+    "name": "Goyang Ubur Ubur Remixed",
+    "description": "Hendro Engkeng-Goyang Ubur Ubur Remixed",
+    "creativeTab": {
+      "value": "CUSTOM:MemesProjectDisc"
+    },
+    "music": {
+      "value": "CUSTOM:goyang_ubur_ubur_remixed"
+    },
+    "specialInfo": [
+      "Ding~"
+    ],
+    "hasGlow": true
+  }
+}

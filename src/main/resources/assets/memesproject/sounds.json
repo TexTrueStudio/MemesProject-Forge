@@ -7,5 +7,23 @@
         "stream": true
       }
     ]
+  },
+  "goyang_ubur_ubur_remixed": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "memesproject:goyang_ubur_ubur_remixed",
+        "stream": true
+      }
+    ]
+  },
+  "never_gonna_give_you_up": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "memesproject:never_gonna_give_you_up",
+        "stream": true
+      }
+    ]
   }
 }

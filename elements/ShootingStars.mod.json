@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "shooting_stars",
+    "name": "Shooting Stars - Bag Raiders",
+    "description": "Shooting Stars - Bag Raiders",
+    "creativeTab": {
+      "value": "CUSTOM:MemesProjectDisc"
+    },
+    "music": {
+      "value": "CUSTOM:shooting_stars"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

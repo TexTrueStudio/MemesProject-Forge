@@ -25,5 +25,15 @@
         "stream": true
       }
     ]
+  },
+  "shooting_stars": {
+    "category": "master",
+    "subtitle": "subtitles.shooting_stars",
+    "sounds": [
+      {
+        "name": "memesproject:shooting_stars",
+        "stream": false
+      }
+    ]
   }
 }

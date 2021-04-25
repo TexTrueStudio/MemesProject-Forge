@@ -3,10 +3,11 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="memesproject"
-version="0.1.0-alpha4"
+version="0.1.1(bata1)"
 displayName="MemesProject"
-credits="Created using mod maker MCreator"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://github.com/block2333/MemesProject-Forge"
+logoFile="logo.png"
 authors="TexBlock2333"
 
 [[dependencies.memesproject]]
@@ -18,7 +19,7 @@ authors="TexBlock2333"
 
 
 [[dependencies.memesproject]]
-    modId="curios"
+    modId="patchouli"
     mandatory=true
     versionRange="[0,)"
     ordering="NONE"

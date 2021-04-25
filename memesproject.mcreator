@@ -261,6 +261,68 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shooting_stars"
+    },
+    {
+      "name": "Donkeymeat",
+      "type": "food",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "donkeymeat"
+    },
+    {
+      "name": "DonkeymeatDangShiWuBeiChiShi",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "donkeymeat_dang_shi_wu_bei_chi_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cookeddonkeymeat",
+      "type": "food",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookeddonkeymeat"
+    },
+    {
+      "name": "DmToCdm",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dm_to_cdm"
+    },
+    {
+      "name": "DmToCdm2",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dm_to_cdm_2"
+    },
+    {
+      "name": "DmToCdm3",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dm_to_cdm_3"
     }
   ],
   "variable_elements": [],
@@ -301,6 +363,7 @@
   "language_map": {
     "en_us": {
       "item.memesproject.goyang_ubur_ubur_remixed": "Goyang Ubur Ubur Remixed",
+      "item.memesproject.cookeddonkeymeat": "Cookeddonkeymeat",
       "subtitles.goyang_ubur_ubur_remixed": "Goyang Ubur Ubur Remixed",
       "itemGroup.tabmemes_project_weapons": "Memes Project-Weapons",
       "subtitles.night-voyager": "NightVoyager",
@@ -323,6 +386,7 @@
       "itemGroup.tabmemes_project_materials": "Memes Project Materials",
       "advancements.this_is_stone_grain.title": "This Is Stone Grain Ore",
       "item.memesproject.night_voyager": "Night Voyager",
+      "item.memesproject.donkeymeat": "Donkeymeat",
       "item.memesproject.mp_ds": "MemesProject-Disc-ICON",
       "item.memesproject.never_gonna_give_you_up": "Never Gonna Give You Up",
       "advancements.dull_blade_is_the_sole_criterion_for_testing_truth.descr": "Made a Dull Blade",
@@ -335,6 +399,7 @@
     },
     "zh_cn": {
       "item.memesproject.goyang_ubur_ubur_remixed": "印  尼  宽  带(Goyang Ubur Ubur Remixed)",
+      "item.memesproject.cookeddonkeymeat": "熟驴肉",
       "subtitles.goyang_ubur_ubur_remixed": "Goyang Ubur Ubur Remixed",
       "itemGroup.tabmemes_project_weapons": "Memes Project-武器",
       "subtitles.night-voyager": "夜航星",
@@ -357,6 +422,7 @@
       "itemGroup.tabmemes_project_materials": "Memes Project-材料",
       "advancements.this_is_stone_grain.title": "这是石粒……矿？",
       "item.memesproject.night_voyager": "夜航星",
+      "item.memesproject.donkeymeat": "驴肉",
       "item.memesproject.mp_ds": "MemesProject-唱片-创造选项卡图标",
       "item.memesproject.never_gonna_give_you_up": "愿  者  上  钩(Never Gonna Give You Up)",
       "advancements.dull_blade_is_the_sole_criterion_for_testing_truth.descr": "做出一把石粒剑",
@@ -365,7 +431,7 @@
       "subtitles.never_gonna_give_you_up": "Never Gonna Give You Up",
       "item.memesproject.shooting_stars.desc": "Shooting Stars - Bag Raiders",
       "item.memesproject.night_voyager.desc": "三体宇宙\u0026不才-夜航星",
-      "item.memesproject.dull_blade_up_haft": "无锋剑上半部分"
+      "item.memesproject.dull_blade_up_haft": "石粒剑上半部分"
     }
   },
   "workspaceSettings": {
@@ -388,7 +454,6 @@
       "patchouli"
     ],
     "currentGenerator": "forge-1.15.2",
-    "credits": "Created using mod maker MCreator",
     "modElementsPackage": "net.tex.memesproject",
     "lockBaseModFiles": false
   },

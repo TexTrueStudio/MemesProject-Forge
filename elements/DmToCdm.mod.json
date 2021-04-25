@@ -1,0 +1,20 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 20,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Donkeymeat"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Cookeddonkeymeat"
+    },
+    "name": "dm_to_cdm",
+    "namespace": "mod"
+  }
+}

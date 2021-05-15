@@ -1,0 +1,16 @@
+{
+  "group": "memesproject",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "memesproject:knife"
+    }
+  ],
+  "result": {
+    "item": "memesproject:bread_slices",
+    "count": 3
+  }
+}

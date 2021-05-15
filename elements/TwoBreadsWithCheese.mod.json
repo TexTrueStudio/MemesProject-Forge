@@ -1,0 +1,26 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "two_breads_with_cheese",
+    "customModelName": "Normal",
+    "name": "Two Breads With Cheese",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 500,
+    "saturation": 40.0,
+    "eatingSpeed": 500,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

@@ -1,3 +1,0 @@
-files:
-  - source: /src/main/resources/assets/memesproject/lang/en_us.json
-    translation: /src/main/resources/assets/memesproject/lang/%language%.json

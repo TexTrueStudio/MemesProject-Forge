@@ -1,9 +1,5 @@
-# MemesProject-Forge
-[![Crowdin](https://badges.crowdin.net/memesprojectmod/localized.svg)](https://crowdin.com/project/memesprojectmod) ![GitHub](https://img.shields.io/github/license/block2333/MemesProject-Forge?style=for-the-badge) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/block2333/MemesProject-Forge?style=for-the-badge) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/block2333/MemesProject-Forge?include_prereleases&style=for-the-badge)
-
-ZH-CN/[EN](https://github.com/block2333/MemesProject-Forge/blob/master/README-EN.md)
-
-
+# MemesProject-Forge 
+[MemesProject](https://gitee.com/tex-true-studio/MemesProject-Forge/blob/master/src/main/resources/logo.png)
 
 #### 安装教程
 
@@ -15,3 +11,4 @@ ZH-CN/[EN](https://github.com/block2333/MemesProject-Forge/blob/master/README-EN
 
 **1.  使用JAVA8 64位**
 **2.  使用Minecraft1.15.2版本**
+

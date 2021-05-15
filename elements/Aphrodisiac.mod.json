@@ -1,0 +1,25 @@
+{
+  "_fv": 13,
+  "_type": "potion",
+  "definition": {
+    "name": "Aphrodisiac",
+    "effectName": "Aphrodisiac",
+    "icon": "aphrodisiac.png",
+    "color": {
+      "value": -154,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShi"
+    },
+    "onExpired": {
+      "name": "AphrodisiacYaoShuiDaoQiShi"
+    }
+  }
+}

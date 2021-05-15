@@ -323,6 +323,103 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dm_to_cdm_3"
+    },
+    {
+      "name": "AphrodisiacYaoShuiDaoQiShi",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aphrodisiac_yao_shui_dao_qi_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShi",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aphrodisiac_dang_yao_shui_xiao_guo_kai_shi_ying_yong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aphrodisiac",
+      "type": "potion",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aphrodisiac"
+    },
+    {
+      "name": "BreadSlices",
+      "type": "food",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_slices"
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knife"
+    },
+    {
+      "name": "BreadSlicesCraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_slices_craft"
+    },
+    {
+      "name": "KnifeCraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "knife_craft"
+    },
+    {
+      "name": "Cheese",
+      "type": "food",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheese"
+    },
+    {
+      "name": "TwoBreadsWithCheese",
+      "type": "food",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "two_breads_with_cheese"
     }
   ],
   "variable_elements": [],
@@ -367,8 +464,11 @@
       "subtitles.goyang_ubur_ubur_remixed": "Goyang Ubur Ubur Remixed",
       "itemGroup.tabmemes_project_weapons": "Memes Project-Weapons",
       "subtitles.night-voyager": "NightVoyager",
+      "item.minecraft.potion.effect.aphrodisiac": "Aphrodisiac",
       "itemGroup.tabmemes_project_disc": "Memes Project Disc",
+      "item.minecraft.tipped_arrow.effect.aphrodisiac": "Arrow of Aphrodisiac",
       "item.memesproject.never_gonna_give_you_up.desc": "Rick Roll -Never Gonna Give You Up",
+      "item.memesproject.knife": "Knife",
       "item.memesproject.dull_blade": "Dull Blade",
       "advancements.this_is_stone_grain.descr": "This is Stone Grain Ore",
       "advancements.memes_project.descr": "The start of the progress of this mod",
@@ -377,23 +477,29 @@
       "block.memesproject.stone_grain_block": "Stone Grain Block",
       "advancements.memes_project.title": "Memes Project",
       "item.memesproject.dull_blade_down_haft": "Dull Blade Down Haft",
+      "item.memesproject.cheese": "Cheese",
       "item.memesproject.mp_ms": "MP Ms",
       "item.memesproject.goyang_ubur_ubur_remixed.desc": "Hendro Engkeng-Goyang Ubur Ubur Remixed",
       "subtitles.shooting_stars": "Shooting Stars - Bag Raiders",
       "item.memesproject.mp_ws": "MemesProject-Weapons-ICON",
       "advancements.dull_blade_is_the_sole_criterion_for_testing_truth.title": "Dull Blade Is The Sole Criterion For Testing Truth",
+      "item.minecraft.splash_potion.effect.aphrodisiac": "Splash Aphrodisiac",
       "item.memesproject.stone_grain_plate": "Stone Grain Plate",
+      "item.minecraft.lingering_potion.effect.aphrodisiac": "Lingering Aphrodisiac",
       "itemGroup.tabmemes_project_materials": "Memes Project Materials",
       "advancements.this_is_stone_grain.title": "This Is Stone Grain Ore",
       "item.memesproject.night_voyager": "Night Voyager",
       "item.memesproject.donkeymeat": "Donkeymeat",
       "item.memesproject.mp_ds": "MemesProject-Disc-ICON",
       "item.memesproject.never_gonna_give_you_up": "Never Gonna Give You Up",
+      "item.memesproject.bread_slices": "Bread Slices",
+      "item.memesproject.two_breads_with_cheese": "Two Breads With Cheese",
       "advancements.dull_blade_is_the_sole_criterion_for_testing_truth.descr": "Made a Dull Blade",
       "item.memesproject.stone_grain_nugget": "Stone Grain Nugget",
       "block.memesproject.stone_grain_ore": "Stone Grain Ore",
       "subtitles.never_gonna_give_you_up": "Never Gonna Give You Up",
       "item.memesproject.shooting_stars.desc": "Shooting Stars - Bag Raiders",
+      "effect.aphrodisiac": "Aphrodisiac",
       "item.memesproject.night_voyager.desc": "Three-body universe \u0026 Bucai",
       "item.memesproject.dull_blade_up_haft": "Dull Blade Up Haft"
     },
@@ -403,8 +509,11 @@
       "subtitles.goyang_ubur_ubur_remixed": "Goyang Ubur Ubur Remixed",
       "itemGroup.tabmemes_project_weapons": "Memes Project-武器",
       "subtitles.night-voyager": "夜航星",
+      "item.minecraft.potion.effect.aphrodisiac": "Aphrodisiac",
       "itemGroup.tabmemes_project_disc": "MemesProject-唱片",
+      "item.minecraft.tipped_arrow.effect.aphrodisiac": "Arrow of Aphrodisiac",
       "item.memesproject.never_gonna_give_you_up.desc": "Rick Roll - Never Gonna Give You Up",
+      "item.memesproject.knife": "小刀",
       "item.memesproject.dull_blade": "石粒剑",
       "advancements.this_is_stone_grain.descr": "这就是石粒",
       "advancements.memes_project.descr": "The start of the progress of this mod",
@@ -413,23 +522,29 @@
       "block.memesproject.stone_grain_block": "石粒块",
       "advancements.memes_project.title": "Memes Project",
       "item.memesproject.dull_blade_down_haft": "石粒剑下半部分",
+      "item.memesproject.cheese": "Cheese",
       "item.memesproject.mp_ms": "MemesProjrct-材料-创造选项卡图标",
       "item.memesproject.goyang_ubur_ubur_remixed.desc": "Hendro Engkeng-Goyang Ubur Ubur Remixed",
       "subtitles.shooting_stars": "Shooting Stars - Bag Raiders",
       "item.memesproject.mp_ws": "MemesProject-武器-创造选项卡图标",
       "advancements.dull_blade_is_the_sole_criterion_for_testing_truth.title": "石（粒）剑是检验真理的唯一标准",
+      "item.minecraft.splash_potion.effect.aphrodisiac": "Splash Aphrodisiac",
       "item.memesproject.stone_grain_plate": "石粒板",
+      "item.minecraft.lingering_potion.effect.aphrodisiac": "Lingering Aphrodisiac",
       "itemGroup.tabmemes_project_materials": "Memes Project-材料",
       "advancements.this_is_stone_grain.title": "这是石粒……矿？",
       "item.memesproject.night_voyager": "夜航星",
       "item.memesproject.donkeymeat": "驴肉",
       "item.memesproject.mp_ds": "MemesProject-唱片-创造选项卡图标",
       "item.memesproject.never_gonna_give_you_up": "愿  者  上  钩(Never Gonna Give You Up)",
+      "item.memesproject.bread_slices": "面包片",
+      "item.memesproject.two_breads_with_cheese": "两面包夹芝士",
       "advancements.dull_blade_is_the_sole_criterion_for_testing_truth.descr": "做出一把石粒剑",
       "item.memesproject.stone_grain_nugget": "石粒",
       "block.memesproject.stone_grain_ore": "石粒矿",
       "subtitles.never_gonna_give_you_up": "Never Gonna Give You Up",
       "item.memesproject.shooting_stars.desc": "Shooting Stars - Bag Raiders",
+      "effect.aphrodisiac": "春药",
       "item.memesproject.night_voyager.desc": "三体宇宙\u0026不才-夜航星",
       "item.memesproject.dull_blade_up_haft": "石粒剑上半部分"
     }
@@ -437,7 +552,7 @@
   "workspaceSettings": {
     "modid": "memesproject",
     "modName": "MemesProject",
-    "version": "0.1.1(bata1)",
+    "version": "0.1.1(bata2)",
     "author": "TexBlock2333",
     "websiteURL": "https://github.com/block2333/MemesProject-Forge",
     "disableForgeVersionCheck": true,
@@ -454,6 +569,7 @@
       "patchouli"
     ],
     "currentGenerator": "forge-1.15.2",
+    "credits": "MCreator",
     "modElementsPackage": "net.tex.memesproject",
     "lockBaseModFiles": false
   },

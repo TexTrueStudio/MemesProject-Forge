@@ -3,9 +3,9 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="memesproject"
-version="0.1.1(bata1)"
+version="0.1.1(bata2)"
 displayName="MemesProject"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="MCreator"
 displayURL="https://github.com/block2333/MemesProject-Forge"
 logoFile="logo.png"
 authors="TexBlock2333"

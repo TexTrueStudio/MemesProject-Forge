@@ -1,5 +1,5 @@
 # MemesProject-Forge 
-[Gitee仓库](https://gitee.com/tex-true-studio/MemesProject-Forge/blob/master/src/main/resources/logo.png)
+[Gitee仓库](https://gitee.com/tex-true-studio/MemesProject-Forge)
 
 **此Mod还在处于开发阶段!!!**
 

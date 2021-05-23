@@ -1,9 +1,6 @@
 buildscript {
     repositories {
-        maven { url = "http://maven.aliyun.com/repository/public"}
-        maven { url = "http://lss233.littleservice.cn/repositories/forgedev" }
-        maven { url = "http://lss233.littleservice.cn/repositories/minecraft" }
-        jcenter()
+        maven { url = 'https://maven.minecraftforge.net' }
         mavenCentral()
     }
     dependencies {

@@ -1,0 +1,12 @@
+{
+  "group": "memesproject",
+  "type": "minecraft:smelting",
+  "experience": 10,
+  "cookingtime": 20,
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
+  "result": {
+    "item": "memesproject:cheese"
+  }
+}

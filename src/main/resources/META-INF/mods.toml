@@ -3,11 +3,10 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="memesproject"
-version="0.1.1(bata2)"
+version="0.1.2(bata2)"
 displayName="MemesProject"
 credits="MCreator"
 displayURL="https://github.com/block2333/MemesProject-Forge"
-logoFile="logo.png"
 authors="TexBlock2333"
 
 [[dependencies.memesproject]]

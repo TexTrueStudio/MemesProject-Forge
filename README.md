@@ -15,7 +15,11 @@
 
 #### After v0.1.2 (v.b2), support for Minecraft 1.15.2 will be abandoned, and only Minecraft 1.16.5 will be supported (subsidiary module support version: v0.1.2 (v.b2)——Latest Release)
 
-这个模组受到bilibili内梗的影响、启发（包含外网梗）所以制作此mod，正在将此mod移植到fabric（速度不会很快），Will not give up Forge at this time
+#### 此模组将在2021.6.7-2021.6.14期间停更
+
+#### This module will be discontinued from 2021.6.7 to 2021.6.14
+
+这个模组受到bilibili内梗的影响、启发（包含外网梗）所以制作此mod，正在将此mod移植到fabric（速度不会很快），不会放弃Forge版本
 
 This mod is influenced and inspired by bilibili internal stalks (including external network stalks), so this mod is being made, and this mod is being ported to fabric (not fast)，Will not give up Forge at this time
 

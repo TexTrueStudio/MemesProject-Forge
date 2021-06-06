@@ -1,6 +1,7 @@
 package net.tex.memesproject.procedures;
 
 import net.tex.memesproject.MemesprojectModElements;
+import net.tex.memesproject.MemesprojectMod;
 
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
@@ -18,7 +19,7 @@ public class DonkeymeatDangShiWuBeiChiShiProcedure extends MemesprojectModElemen
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure DonkeymeatDangShiWuBeiChiShi!");
+				MemesprojectMod.LOGGER.warn("Failed to load dependency entity for procedure DonkeymeatDangShiWuBeiChiShi!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

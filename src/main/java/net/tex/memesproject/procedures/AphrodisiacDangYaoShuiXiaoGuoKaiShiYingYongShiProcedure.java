@@ -1,6 +1,7 @@
 package net.tex.memesproject.procedures;
 
 import net.tex.memesproject.MemesprojectModElements;
+import net.tex.memesproject.MemesprojectMod;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
@@ -16,7 +17,7 @@ public class AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure extends Mem
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShi!");
+				MemesprojectMod.LOGGER.warn("Failed to load dependency entity for procedure AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShi!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

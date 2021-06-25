@@ -38,15 +38,6 @@
       "registry_name": "night_voyager"
     },
     {
-      "name": "MPDs",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mp_ds"
-    },
-    {
       "name": "MemesProjectDisc",
       "type": "tab",
       "sortid": 5,
@@ -144,15 +135,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dull_blade_down_haft"
-    },
-    {
-      "name": "MPMs",
-      "type": "item",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mp_ms"
     },
     {
       "name": "MemesProjectMaterials",
@@ -456,6 +438,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tibetan_fox"
+    },
+    {
+      "name": "OlgaItsuka",
+      "type": "painting",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "olga_itsuka"
     }
   ],
   "variable_elements": [],
@@ -518,7 +509,6 @@
       "item.memesproject.cheese": "Cheese",
       "subtitles.shooting_stars": "Shooting Stars - Bag Raiders",
       "item.memesproject.goyang_ubur_ubur_remixed.desc": "Hendro Engkeng-Goyang Ubur Ubur Remixed",
-      "item.memesproject.mp_ms": "MP Ms",
       "advancements.tbwc.title": "Two Breads With Cheese?",
       "advancements.dull_blade_is_the_sole_criterion_for_testing_truth.title": "Dull Blade Is The Sole Criterion For Testing Truth",
       "item.minecraft.splash_potion.effect.aphrodisiac": "Splash Aphrodisiac",
@@ -529,7 +519,6 @@
       "advancements.this_is_stone_grain.title": "This Is Stone Grain Ore",
       "item.memesproject.night_voyager": "Night Voyager",
       "item.memesproject.donkeymeat": "Donkeymeat",
-      "item.memesproject.mp_ds": "MemesProject-Disc-ICON",
       "item.memesproject.bread_slices": "Bread Slices",
       "item.memesproject.two_breads_with_cheese": "Two Breads With Cheese",
       "item.memesproject.never_gonna_give_you_up": "Never Gonna Give You Up",
@@ -549,7 +538,7 @@
       "itemGroup.tabmemes_project_weapons": "Memes Project-武器",
       "subtitles.night-voyager": "夜航星",
       "item.minecraft.potion.effect.aphrodisiac": "春药",
-      "item.memesproject.tibetan_fox": "Tibetan Fox",
+      "item.memesproject.tibetan_fox": "藏狐",
       "item.minecraft.tipped_arrow.effect.aphrodisiac": "春药箭",
       "itemGroup.tabmemes_project_disc": "MemesProject-唱片",
       "advancements.tbwc.descr": "我们要形成一个 两面包夹芝士(两面包夹之势)",
@@ -566,7 +555,6 @@
       "item.memesproject.cheese": "芝士",
       "subtitles.shooting_stars": "Shooting Stars - Bag Raiders",
       "item.memesproject.goyang_ubur_ubur_remixed.desc": "Hendro Engkeng-Goyang Ubur Ubur Remixed",
-      "item.memesproject.mp_ms": "MemesProjrct-材料-创造选项卡图标",
       "advancements.tbwc.title": "两面包夹芝士?",
       "item.minecraft.splash_potion.effect.aphrodisiac": "喷溅型春药",
       "advancements.dull_blade_is_the_sole_criterion_for_testing_truth.title": "石（粒）剑是检验真理的唯一标准",
@@ -577,7 +565,6 @@
       "advancements.this_is_stone_grain.title": "这是石粒……矿？",
       "item.memesproject.night_voyager": "夜航星",
       "item.memesproject.donkeymeat": "驴肉",
-      "item.memesproject.mp_ds": "MemesProject-唱片-创造选项卡图标",
       "item.memesproject.two_breads_with_cheese": "两面包夹芝士",
       "item.memesproject.bread_slices": "面包片",
       "item.memesproject.never_gonna_give_you_up": "愿  者  上  钩(Never Gonna Give You Up)",
@@ -598,9 +585,8 @@
   "workspaceSettings": {
     "modid": "memesproject",
     "modName": "MemesProject-Forge",
-    "version": "0.1.3(0.1b3)",
-    "description": "Do whatever you want",
-    "author": "TexBlock2333",
+    "version": "0.1.4(0.1b4)",
+    "author": "TexBlock2333,TexTrueStudio",
     "websiteURL": "https://github.com/block2333/MemesProject-Forge",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
@@ -611,14 +597,10 @@
       "Patchouli"
     ],
     "dependants": [],
-    "mcreatorDependencies": [
-      "just_enough_items",
-      "curios",
-      "patchouli"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "MCreator",
-    "modElementsPackage": "net.tex.memesproject",
+    "credits": "MCreator,TexTrue(block2333),TexTrueStudio",
+    "modElementsPackage": "net.texstudio.memesproject",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202100118117

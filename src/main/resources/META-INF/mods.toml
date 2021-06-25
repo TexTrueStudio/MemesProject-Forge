@@ -4,15 +4,12 @@ license="MIT License"
 
 [[mods]]
 modId="memesproject"
-version="0.1.3(0.1b3)"
+version="0.1.4(0.1b4)"
 displayName="MemesProject-Forge"
-credits="MCreator"
+credits="MCreator,TexTrue(block2333),TexTrueStudio"
 displayURL="https://github.com/block2333/MemesProject-Forge"
 logoFile="logo.png"
-authors="TexBlock2333"
-description='''
-Do whatever you want
-'''
+authors="TexBlock2333,TexTrueStudio"
 
 [[dependencies.memesproject]]
     modId="minecraft"

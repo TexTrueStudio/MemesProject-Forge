@@ -4,10 +4,13 @@
 ![Gitee](https://images.gitee.com/uploads/images/2021/0530/134116_db958539_7560351.png "Gitee")
 [![MemesProject-Forge](https://images.gitee.com/uploads/images/2021/0530/123027_1f7285d4_7560351.png "MemesProject-Forge")](https://gitee.com/tex-true-studio/MemesProject-Forge)
 [![MemesProject-Fabric](https://images.gitee.com/uploads/images/2021/0530/124442_f5473a65_7560351.png "MemesProject-Fabric")](https://gitee.com/tex-true-studio/MemesProject-Fabric)
+[![MemesProjectDisc-Forge](https://images.gitee.com/uploads/images/2021/0625/122424_69e1459d_7560351.png)](https://gitee.com/tex-true-studio/MemesProjectDisc-Forge)
 
 ![Github](https://images.gitee.com/uploads/images/2021/0530/134656_d02dfa16_7560351.png "Github")
 [![MemesProject-Forge](https://images.gitee.com/uploads/images/2021/0530/123027_1f7285d4_7560351.png "MemesProject-Forge")](https://github.com/TexTrueStudio/MemesProject-Forge)
 [![MemesProject-Fabric](https://images.gitee.com/uploads/images/2021/0530/124442_f5473a65_7560351.png "MemesProject-Fabric")](https://github.com/TexTrueStudio/MemesProject-Fabric)
+
+[![MemesProjectDisc-Forge](https://images.gitee.com/uploads/images/2021/0625/122424_69e1459d_7560351.png)](https://github.com/TexTrueStudio/MemesprojectDisc-Forge)
 
 **此Mod还在处于开发阶段,如果想把此模组加入游戏中，请先备份存档!!!**
 
@@ -17,9 +20,9 @@
 
 #### After v0.1.2 (v.b2), support for Minecraft 1.15.2 will be abandoned, and only Minecraft 1.16.5 will be supported (subsidiary module support version: v0.1.2 (v.b2)——Latest Release)
 
-此模组将把唱片拆分为另一个模组（MemesProjectDisc [Forge](https://github.com/block2333/MemesprojectDisc-Forge) Fabric[无]），已添加在此模组的唱片将不会被移除。
+此模组将把唱片拆分为另一个模组（MemesProjectDisc），已添加在此模组的唱片将不会被移除。
 
-This module will split the disc into another module (MemesProjectDisc [Forge](https://github.com/block2333/MemesprojectDisc-Forge) Fabric[NONE]), and the discs that have been added to this module will not be removed.
+This module will split the disc into another module (MemesProjectDisc), and the discs that have been added to this module will not be removed.
 
 正在将此mod移植到fabric（速度不会很快），不会放弃Forge版本
 

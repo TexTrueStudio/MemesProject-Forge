@@ -1,0 +1,9 @@
+{
+  "parent": "memesproject:custom/heating_radiator",
+  "textures": {
+    "all": "memesproject:blocks/heating_radiator",
+    "particle": "memesproject:blocks/heating_radiator",
+    "0": "memesproject:blocks/heating_radiator",
+    "missing": "memesproject:blocks/heating_radiator"
+  }
+}

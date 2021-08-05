@@ -9,7 +9,7 @@ displayName="MemesProject-Forge"
 credits="MCreator,TexTrue(block2333),TexTrueStudio"
 displayURL="https://github.com/block2333/MemesProject-Forge"
 logoFile="logo.png"
-authors="TexBlock2333,TexTrueStudio"
+authors="TexBlock,TexTrueStudio"
 
 [[dependencies.memesproject]]
     modId="minecraft"
@@ -21,9 +21,21 @@ authors="TexBlock2333,TexTrueStudio"
 
 
 [[dependencies.memesproject]]
-    modId="Patchouli"
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.memesproject]]
+    modId=" catalogue"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.memesproject]]
+    modId="MemesProject-Disc"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"

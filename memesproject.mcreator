@@ -119,24 +119,6 @@
       "registry_name": "sg_ingot_block"
     },
     {
-      "name": "DullBladeUpHaft",
-      "type": "item",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dull_blade_up_haft"
-    },
-    {
-      "name": "DullBladeDownHaft",
-      "type": "item",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dull_blade_down_haft"
-    },
-    {
       "name": "MemesProjectMaterials",
       "type": "tab",
       "sortid": 17,
@@ -162,24 +144,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sg_ingot_nugget"
-    },
-    {
-      "name": "DBUH",
-      "type": "recipe",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dbuh"
-    },
-    {
-      "name": "DBDH",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dbdh"
     },
     {
       "name": "ThisIsStoneGrain",
@@ -447,6 +411,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "olga_itsuka"
+    },
+    {
+      "name": "HeatingRadiator",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heating_radiator"
     }
   ],
   "variable_elements": [],
@@ -505,7 +478,6 @@
       "item.memesproject.stone_grain_ingot": "Stone Grain Ingot",
       "block.memesproject.stone_grain_block": "Stone Grain Block",
       "advancements.memes_project.title": "Memes Project",
-      "item.memesproject.dull_blade_down_haft": "Dull Blade Down Haft",
       "item.memesproject.cheese": "Cheese",
       "subtitles.shooting_stars": "Shooting Stars - Bag Raiders",
       "item.memesproject.goyang_ubur_ubur_remixed.desc": "Hendro Engkeng-Goyang Ubur Ubur Remixed",
@@ -528,8 +500,8 @@
       "subtitles.never_gonna_give_you_up": "Never Gonna Give You Up",
       "item.memesproject.shooting_stars.desc": "Shooting Stars - Bag Raiders",
       "effect.aphrodisiac": "Aphrodisiac",
-      "item.memesproject.night_voyager.desc": "Three-body universe \u0026 Bucai",
-      "item.memesproject.dull_blade_up_haft": "Dull Blade Up Haft"
+      "block.memesproject.heating_radiator": "Heating Radiator",
+      "item.memesproject.night_voyager.desc": "Three-body universe \u0026 Bucai"
     },
     "zh_cn": {
       "item.memesproject.goyang_ubur_ubur_remixed": "印  尼  宽  带(Goyang Ubur Ubur Remixed)",
@@ -551,7 +523,6 @@
       "item.memesproject.stone_grain_ingot": "石粒锭",
       "block.memesproject.stone_grain_block": "石粒块",
       "advancements.memes_project.title": "Memes Project",
-      "item.memesproject.dull_blade_down_haft": "石粒剑下半部分",
       "item.memesproject.cheese": "芝士",
       "subtitles.shooting_stars": "Shooting Stars - Bag Raiders",
       "item.memesproject.goyang_ubur_ubur_remixed.desc": "Hendro Engkeng-Goyang Ubur Ubur Remixed",
@@ -574,8 +545,8 @@
       "subtitles.never_gonna_give_you_up": "Never Gonna Give You Up",
       "item.memesproject.shooting_stars.desc": "Shooting Stars - Bag Raiders",
       "effect.aphrodisiac": "春药",
-      "item.memesproject.night_voyager.desc": "三体宇宙\u0026不才-夜航星",
-      "item.memesproject.dull_blade_up_haft": "石粒剑上半部分"
+      "block.memesproject.heating_radiator": "Heating Radiator",
+      "item.memesproject.night_voyager.desc": "三体宇宙\u0026不才-夜航星"
     }
   },
   "foldersRoot": {
@@ -586,7 +557,7 @@
     "modid": "memesproject",
     "modName": "MemesProject-Forge",
     "version": "0.1.4(0.1b4)",
-    "author": "TexBlock2333,TexTrueStudio",
+    "author": "TexBlock,TexTrueStudio",
     "websiteURL": "https://github.com/block2333/MemesProject-Forge",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
@@ -594,10 +565,15 @@
     "modPicture": "logoforge",
     "requiredMods": [],
     "dependencies": [
-      "Patchouli"
+      "patchouli",
+      " catalogue"
     ],
-    "dependants": [],
-    "mcreatorDependencies": [],
+    "dependants": [
+      "MemesProject-Disc"
+    ],
+    "mcreatorDependencies": [
+      "patchouli"
+    ],
     "currentGenerator": "forge-1.16.5",
     "credits": "MCreator,TexTrue(block2333),TexTrueStudio",
     "modElementsPackage": "net.texstudio.memesproject",

@@ -27,7 +27,7 @@ public class TibetanFoxItem extends MemesprojectModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MemesProjectMaterialsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MemesProjectMaterialsItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.COMMON));
 			setRegistryName("tibetan_fox");
 		}
 

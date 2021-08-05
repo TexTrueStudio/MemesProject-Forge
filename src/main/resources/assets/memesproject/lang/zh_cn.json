@@ -18,7 +18,6 @@
   "item.memesproject.stone_grain_ingot": "石粒锭",
   "block.memesproject.stone_grain_block": "石粒块",
   "advancements.memes_project.title": "Memes Project",
-  "item.memesproject.dull_blade_down_haft": "石粒剑下半部分",
   "item.memesproject.cheese": "芝士",
   "subtitles.shooting_stars": "Shooting Stars - Bag Raiders",
   "item.memesproject.goyang_ubur_ubur_remixed.desc": "Hendro Engkeng-Goyang Ubur Ubur Remixed",
@@ -41,6 +40,6 @@
   "subtitles.never_gonna_give_you_up": "Never Gonna Give You Up",
   "item.memesproject.shooting_stars.desc": "Shooting Stars - Bag Raiders",
   "effect.aphrodisiac": "春药",
-  "item.memesproject.night_voyager.desc": "三体宇宙\u0026不才-夜航星",
-  "item.memesproject.dull_blade_up_haft": "石粒剑上半部分"
+  "block.memesproject.heating_radiator": "Heating Radiator",
+  "item.memesproject.night_voyager.desc": "三体宇宙\u0026不才-夜航星"
 }

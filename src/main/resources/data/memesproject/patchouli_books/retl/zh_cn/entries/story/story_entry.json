@@ -1,0 +1,11 @@
+{
+    "name": "故事",
+    "icon": "minecraft:writable_book",
+    "category": "story_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在2077年，此时距离某岛国已把核废水排放入海已过去56年，排放之后（编写中!）"
+        }
+    ]
+}

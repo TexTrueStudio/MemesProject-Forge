@@ -14,6 +14,7 @@ MemesProjectSeries includes the following mods：
 | [![MemesProjectDisc-Forge](https://images.gitee.com/uploads/images/2021/0625/122424_69e1459d_7560351.png)](https://gitee.com/tex-true-studio/MemesProjectDisc-Forge) | [![MemesProjectDisc-Forge](https://images.gitee.com/uploads/images/2021/0625/122424_69e1459d_7560351.png)](https://github.com/TexTrueStudio/MemesprojectDisc-Forge) |
 
 目前没有计划更新1.17.x，原因是MCR目前仍在支持1.16.5未能支持1.17.x。
+在0.1b3之后的版本需要Patchouli作为前置。
 
 
 **此Mod还在处于开发阶段,如果想把此模组加入游戏中，请先备份存档!!!**

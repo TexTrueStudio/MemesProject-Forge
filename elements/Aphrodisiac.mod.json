@@ -17,9 +17,6 @@
     "renderStatusInHUD": true,
     "onStarted": {
       "name": "AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShi"
-    },
-    "onExpired": {
-      "name": "AphrodisiacYaoShuiDaoQiShi"
     }
   }
 }

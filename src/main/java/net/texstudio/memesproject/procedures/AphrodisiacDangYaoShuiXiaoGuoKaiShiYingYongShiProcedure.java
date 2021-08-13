@@ -1,9 +1,12 @@
 package net.texstudio.memesproject.procedures;
 
+import net.texstudio.memesproject.potion.AphrodisiacPotion;
 import net.texstudio.memesproject.MemesprojectModElements;
 import net.texstudio.memesproject.MemesprojectMod;
 
+import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import java.util.Map;
@@ -25,5 +28,7 @@ public class AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure extends Mem
 			((PlayerEntity) entity).abilities.disableDamage = (false);
 			((PlayerEntity) entity).sendPlayerAbilities();
 		}
+		if (entity instanceof LivingEntity)
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(AphrodisiacPotion.potion, (int) 60, (int) 1));
 	}
 }

@@ -1,0 +1,11 @@
+{
+    "name": "测试条目",
+    "icon": "minecraft:writable_book",
+    "category": "test_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "这是一个测试条目，但它应该会出现!由于本手册正在编写，故保留此条目，未来可能会将其删除。                          以下内容复制自MinecraftWiki：§nMinecraft Formatting §r§00 §11 §22 §33 §44 §55 §66 §77 §88 §99 §aa §bb §cc §dd §ee §ff §r§0k §kMinecraft §rl §lMinecraft §rm §mMinecraft §rn §nMinecraft §ro §oMinecraft  §rr §rMinecraft"
+        }
+    ]
+}

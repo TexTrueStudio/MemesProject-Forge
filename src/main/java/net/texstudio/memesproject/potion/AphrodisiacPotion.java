@@ -1,7 +1,6 @@
 
 package net.texstudio.memesproject.potion;
 
-import net.texstudio.memesproject.procedures.AphrodisiacYaoShuiDaoQiShiProcedure;
 import net.texstudio.memesproject.procedures.AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure;
 import net.texstudio.memesproject.MemesprojectModElements;
 
@@ -16,7 +15,6 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.EffectType;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effect;
-import net.minecraft.entity.ai.attributes.AttributeModifierManager;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
@@ -98,20 +96,6 @@ public class AphrodisiacPotion extends MemesprojectModElements.ModElement {
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure.executeProcedure($_dependencies);
-			}
-		}
-
-		@Override
-		public void removeAttributesModifiersFromEntity(LivingEntity entity, AttributeModifierManager attributeMapIn, int amplifier) {
-			super.removeAttributesModifiersFromEntity(entity, attributeMapIn, amplifier);
-			World world = entity.world;
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				AphrodisiacYaoShuiDaoQiShiProcedure.executeProcedure($_dependencies);
 			}
 		}
 

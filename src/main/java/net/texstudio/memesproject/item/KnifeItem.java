@@ -1,13 +1,13 @@
 
 package net.texstudio.memesproject.item;
 
+import net.minecraft.util.text.TranslationTextComponent;
 import net.texstudio.memesproject.itemgroup.MemesProjectWeaponsItemGroup;
 import net.texstudio.memesproject.MemesprojectModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
@@ -58,7 +58,7 @@ public class KnifeItem extends MemesprojectModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("It's just a knife. . . ."));
+				list.add(new TranslationTextComponent("item.memesproject.knife.desc"));
 			}
 		}.setRegistryName("knife"));
 	}

@@ -1,0 +1,11 @@
+{
+    "name": "关于",
+    "icon": "minecraft:writable_book",
+    "category": "story_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "如果你看到此书不完整，很正常，目前此手册仍未编写完成，目前完成度在1%"
+        }
+    ]
+}

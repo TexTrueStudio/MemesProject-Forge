@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Aphrodisiac",
+    "splashName": "Splash Aphrodisiac",
+    "lingeringName": "Lingering Aphrodisiac",
+    "arrowName": "Arrow of Aphrodisiac",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Aphrodisiac"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

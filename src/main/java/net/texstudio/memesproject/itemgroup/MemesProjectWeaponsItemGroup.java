@@ -22,7 +22,7 @@ public class MemesProjectWeaponsItemGroup extends MemesprojectModElements.ModEle
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(DullBladeItem.block, (int) (1));
+				return new ItemStack(DullBladeItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -1,8 +1,7 @@
 {
-  "_fv": 18,
-  "_type": "potion",
+  "_fv": 24,
+  "_type": "potioneffect",
   "definition": {
-    "name": "Aphrodisiac",
     "effectName": "Aphrodisiac",
     "icon": "aphrodisiac.png",
     "color": {
@@ -12,7 +11,6 @@
     "isInstant": true,
     "isBad": false,
     "isBenefitical": true,
-    "registerPotionType": true,
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "onStarted": {

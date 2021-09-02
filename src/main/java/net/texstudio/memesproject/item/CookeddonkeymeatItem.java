@@ -42,7 +42,7 @@ public class CookeddonkeymeatItem extends MemesprojectModElements.ModElement {
 
 		@Override
 		public ItemStack onItemUseFinish(ItemStack itemstack, World world, LivingEntity entity) {
-			ItemStack retval = new ItemStack(Items.COOKED_BEEF, (int) (1));
+			ItemStack retval = new ItemStack(Items.COOKED_BEEF);
 			super.onItemUseFinish(itemstack, world, entity);
 			if (itemstack.isEmpty()) {
 				return retval;

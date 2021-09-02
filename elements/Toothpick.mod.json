@@ -1,19 +1,19 @@
 {
-  "_fv": 18,
+  "_fv": 24,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ws_icon",
+    "texture": "toothpick",
     "customModelName": "Normal",
-    "name": "MemesProject-Weapons-ICON",
-    "rarity": "EPIC",
+    "name": "Toothpick",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:MemesProjectWeapons"
     },
-    "stackSize": 0,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
-    "toolType": 0.0,
+    "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
@@ -22,14 +22,15 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 10.0,
     "specialInfo": [
-      "Creative Mode Tab Icon"
+      "What looks like a wooden stick is actually a toothpick."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
   }
 }

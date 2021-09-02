@@ -1,7 +1,6 @@
 package net.texstudio.memesproject.procedures;
 
-import net.texstudio.memesproject.potion.AphrodisiacPotion;
-import net.texstudio.memesproject.MemesprojectModElements;
+import net.texstudio.memesproject.potion.AphrodisiacPotionEffect;
 import net.texstudio.memesproject.MemesprojectMod;
 
 import net.minecraft.potion.EffectInstance;
@@ -11,12 +10,7 @@ import net.minecraft.entity.Entity;
 
 import java.util.Map;
 
-@MemesprojectModElements.ModElement.Tag
-public class AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure extends MemesprojectModElements.ModElement {
-	public AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure(MemesprojectModElements instance) {
-		super(instance, 36);
-	}
-
+public class AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
@@ -29,6 +23,6 @@ public class AphrodisiacDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure extends Mem
 			((PlayerEntity) entity).sendPlayerAbilities();
 		}
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(AphrodisiacPotion.potion, (int) 60, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(AphrodisiacPotionEffect.potion, (int) 60, (int) 1));
 	}
 }

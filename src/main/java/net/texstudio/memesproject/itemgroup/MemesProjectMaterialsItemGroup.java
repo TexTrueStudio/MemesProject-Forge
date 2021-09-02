@@ -22,7 +22,7 @@ public class MemesProjectMaterialsItemGroup extends MemesprojectModElements.ModE
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(StoneGrainIngotItem.block, (int) (1));
+				return new ItemStack(StoneGrainIngotItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

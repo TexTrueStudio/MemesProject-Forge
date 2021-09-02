@@ -1,6 +1,5 @@
 package net.texstudio.memesproject.procedures;
 
-import net.texstudio.memesproject.MemesprojectModElements;
 import net.texstudio.memesproject.MemesprojectMod;
 
 import net.minecraft.util.DamageSource;
@@ -9,12 +8,7 @@ import net.minecraft.entity.Entity;
 
 import java.util.Map;
 
-@MemesprojectModElements.ModElement.Tag
-public class AphrodisiacYaoShuiDaoQiShiProcedure extends MemesprojectModElements.ModElement {
-	public AphrodisiacYaoShuiDaoQiShiProcedure(MemesprojectModElements instance) {
-		super(instance, 35);
-	}
-
+public class AphrodisiacYaoShuiDaoQiShiProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))

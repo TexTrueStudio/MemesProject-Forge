@@ -15,13 +15,16 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 
+import java.util.stream.Stream;
 import java.util.Map;
 import java.util.HashMap;
+import java.util.AbstractMap;
 
 @MemesprojectModElements.ModElement.Tag
 public class DonkeymeatItem extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:donkeymeat")
 	public static final Item block = null;
+
 	public DonkeymeatItem(MemesprojectModElements instance) {
 		super(instance, 29);
 	}
@@ -30,10 +33,13 @@ public class DonkeymeatItem extends MemesprojectModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new FoodItemCustom());
 	}
+
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(4).saturation(0.3f).build()));
+					.food((new Food.Builder()).hunger(4).saturation(0.3f)
+
+							.build()));
 			setRegistryName("donkeymeat");
 		}
 
@@ -48,11 +54,9 @@ public class DonkeymeatItem extends MemesprojectModElements.ModElement {
 			double x = entity.getPosX();
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				DonkeymeatDangShiWuBeiChiShiProcedure.executeProcedure($_dependencies);
-			}
+
+			DonkeymeatDangShiWuBeiChiShiProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
 		}
 	}

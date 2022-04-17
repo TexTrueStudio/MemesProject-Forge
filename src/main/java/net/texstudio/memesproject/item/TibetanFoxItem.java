@@ -17,6 +17,7 @@ import net.minecraft.block.BlockState;
 public class TibetanFoxItem extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:tibetan_fox")
 	public static final Item block = null;
+
 	public TibetanFoxItem(MemesprojectModElements instance) {
 		super(instance, 48);
 	}
@@ -25,6 +26,7 @@ public class TibetanFoxItem extends MemesprojectModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(MemesProjectMaterialsItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.COMMON));

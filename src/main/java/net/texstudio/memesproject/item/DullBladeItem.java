@@ -15,6 +15,7 @@ import net.minecraft.item.IItemTier;
 public class DullBladeItem extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:dull_blade")
 	public static final Item block = null;
+
 	public DullBladeItem(MemesprojectModElements instance) {
 		super(instance, 1);
 	}

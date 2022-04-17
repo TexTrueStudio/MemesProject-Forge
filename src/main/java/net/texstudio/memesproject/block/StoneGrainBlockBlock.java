@@ -25,6 +25,7 @@ import java.util.Collections;
 public class StoneGrainBlockBlock extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:stone_grain_block")
 	public static final Block block = null;
+
 	public StoneGrainBlockBlock(MemesprojectModElements instance) {
 		super(instance, 11);
 	}
@@ -35,6 +36,7 @@ public class StoneGrainBlockBlock extends MemesprojectModElements.ModElement {
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(MemesProjectMaterialsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(10f, 10f).setLightLevel(s -> 0).harvestLevel(2)

@@ -31,5 +31,6 @@ public class MemesProjectWeaponsItemGroup extends MemesprojectModElements.ModEle
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
+
 	public static ItemGroup tab;
 }

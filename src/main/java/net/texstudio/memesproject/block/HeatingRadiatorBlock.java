@@ -30,6 +30,7 @@ import java.util.Collections;
 public class HeatingRadiatorBlock extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:heating_radiator")
 	public static final Block block = null;
+
 	public HeatingRadiatorBlock(MemesprojectModElements instance) {
 		super(instance, 50);
 	}
@@ -46,6 +47,7 @@ public class HeatingRadiatorBlock extends MemesprojectModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)

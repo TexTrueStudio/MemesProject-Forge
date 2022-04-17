@@ -15,6 +15,7 @@ import net.minecraft.block.BlockState;
 public class StoneGrainIngotItem extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:stone_grain_ingot")
 	public static final Item block = null;
+
 	public StoneGrainIngotItem(MemesprojectModElements instance) {
 		super(instance, 7);
 	}
@@ -23,6 +24,7 @@ public class StoneGrainIngotItem extends MemesprojectModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(MemesProjectMaterialsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));

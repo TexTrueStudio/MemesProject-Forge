@@ -28,6 +28,7 @@ import com.google.common.collect.ImmutableMultimap;
 public class ToothpickItem extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:toothpick")
 	public static final Item block = null;
+
 	public ToothpickItem(MemesprojectModElements instance) {
 		super(instance, 51);
 	}
@@ -36,6 +37,7 @@ public class ToothpickItem extends MemesprojectModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(MemesProjectWeaponsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));

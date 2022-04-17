@@ -1,4 +1,5 @@
 {
+  "item.memesproject.q_coin_gay_spawn_egg": "Q Coin Gay Spawn Egg",
   "item.memesproject.cookeddonkeymeat": "熟驴肉",
   "itemGroup.tabmemes_project_weapons": "梗之计划-武器",
   "subtitles.night-voyager": "夜航星",
@@ -27,6 +28,7 @@
   "item.memesproject.toothpick": "牙签儿",
   "item.memesproject.two_breads_with_cheese": "两面包夹芝士",
   "item.memesproject.bread_slices": "面包片",
+  "entity.memesproject.q_coin_gay": "Q Coin Gay",
   "advancements.dull_blade_is_the_sole_criterion_for_testing_truth.descr": "做出一把石粒剑",
   "item.memesproject.stone_grain_nugget": "石粒",
   "block.memesproject.stone_grain_ore": "石粒矿",

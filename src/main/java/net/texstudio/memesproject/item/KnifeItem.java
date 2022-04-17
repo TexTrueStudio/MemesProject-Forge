@@ -1,13 +1,13 @@
 
 package net.texstudio.memesproject.item;
 
-import net.minecraft.util.text.TranslationTextComponent;
 import net.texstudio.memesproject.itemgroup.MemesProjectWeaponsItemGroup;
 import net.texstudio.memesproject.MemesprojectModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
@@ -24,6 +24,7 @@ import java.util.List;
 public class KnifeItem extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:knife")
 	public static final Item block = null;
+
 	public KnifeItem(MemesprojectModElements instance) {
 		super(instance, 38);
 	}
@@ -52,13 +53,13 @@ public class KnifeItem extends MemesprojectModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(Items.IRON_INGOT, (int) (1)), new ItemStack(Blocks.IRON_BLOCK, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(Items.IRON_INGOT), new ItemStack(Blocks.IRON_BLOCK));
 			}
 		}, 3, -3f, new Item.Properties().group(MemesProjectWeaponsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new TranslationTextComponent("item.memesproject.knife.desc"));
+				list.add(new StringTextComponent("It's just a knife. . . ."));
 			}
 		}.setRegistryName("knife"));
 	}

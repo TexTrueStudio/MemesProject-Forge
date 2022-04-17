@@ -20,6 +20,7 @@ import net.minecraft.entity.LivingEntity;
 public class CookeddonkeymeatItem extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:cookeddonkeymeat")
 	public static final Item block = null;
+
 	public CookeddonkeymeatItem(MemesprojectModElements instance) {
 		super(instance, 31);
 	}
@@ -28,6 +29,7 @@ public class CookeddonkeymeatItem extends MemesprojectModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new FoodItemCustom());
 	}
+
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)

@@ -16,6 +16,7 @@ import net.minecraft.item.Food;
 public class BreadSlicesItem extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:bread_slices")
 	public static final Item block = null;
+
 	public BreadSlicesItem(MemesprojectModElements instance) {
 		super(instance, 37);
 	}
@@ -24,10 +25,13 @@ public class BreadSlicesItem extends MemesprojectModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new FoodItemCustom());
 	}
+
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(4).saturation(0.3f).setAlwaysEdible().build()));
+					.food((new Food.Builder()).hunger(4).saturation(0.3f).setAlwaysEdible()
+
+							.build()));
 			setRegistryName("bread_slices");
 		}
 

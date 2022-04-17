@@ -18,6 +18,7 @@ import net.minecraft.item.Food;
 public class TwoBreadsWithCheeseItem extends MemesprojectModElements.ModElement {
 	@ObjectHolder("memesproject:two_breads_with_cheese")
 	public static final Item block = null;
+
 	public TwoBreadsWithCheeseItem(MemesprojectModElements instance) {
 		super(instance, 42);
 	}
@@ -26,10 +27,13 @@ public class TwoBreadsWithCheeseItem extends MemesprojectModElements.ModElement 
 	public void initElements() {
 		elements.items.add(() -> new FoodItemCustom());
 	}
+
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(500).saturation(40f).setAlwaysEdible().build()));
+					.food((new Food.Builder()).hunger(500).saturation(40f).setAlwaysEdible()
+
+							.build()));
 			setRegistryName("two_breads_with_cheese");
 		}
 

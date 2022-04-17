@@ -1,5 +1,4 @@
 {
-  "group": "memesproject",
   "type": "minecraft:smelting",
   "experience": 10,
   "cookingtime": 20,

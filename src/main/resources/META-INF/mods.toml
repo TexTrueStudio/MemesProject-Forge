@@ -35,8 +35,8 @@ authors="TexBlock,TexTrueStudio"
     side="BOTH"
 
 [[dependencies.memesproject]]
-modId="memesproject_redisc"
-mandatory=false
-versionRange="[0,)"
-ordering="NONE"
-side="BOTH"
+    modId="memesproject_redisc"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"

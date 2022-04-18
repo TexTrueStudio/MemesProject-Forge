@@ -6,10 +6,10 @@ license="MIT License"
 modId="memesproject"
 version="0.1.5(0.1b5)"
 displayName="MemesProject-Forge"
-credits="MCreator,TexTrue(block2333),TexTrueStudio"
-displayURL="https://github.com/block2333/MemesProject-Forge"
+credits="TexTrue,TexTrueStudio"
+displayURL="https://github.com/TexTrueStudio/MemesProject-Forge"
 logoFile="logo.png"
-authors="TexBlock,TexTrueStudio"
+authors="TexTrueStudio"
 
 [[dependencies.memesproject]]
     modId="minecraft"
@@ -28,7 +28,7 @@ authors="TexBlock,TexTrueStudio"
     side="BOTH"
 
 [[dependencies.memesproject]]
-    modId="memesprojectdisc"
+    modId="memesprojectdiscforge"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

@@ -28,7 +28,7 @@ authors="TexBlock,TexTrueStudio"
     side="BOTH"
 
 [[dependencies.memesproject]]
-    modId="memesproject_disc"
+    modId="memesprojectdisc"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
